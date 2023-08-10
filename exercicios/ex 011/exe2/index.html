@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Colocando imagens dinânmicas</title>
+</head>
+<body>
+    <h1>Interação de imagens com links internos!</h1>
+    <hr>
+    <p><strong>Aqui vou mostrar uma foto cropada de</strong>  <q><ins><strong>imagens com a letra A!</strong></ins></q>!</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="img1/cr-g.jpeg" type="image/jpeg">
+        <source media="(max-width: 1050px)" srcset="img1/cr-m.jpeg" type="image/jpeg">
+       <img src="img1/cr-p.jpeg" alt=" imagem flexível">
+    </picture>
+    <p>próxima página<a href="pag002.html" target="_self" rel="next"> 2</a> <a href="pag003.html " target="_self" rel="next">3</a>.</p>
+</body>
+</html>

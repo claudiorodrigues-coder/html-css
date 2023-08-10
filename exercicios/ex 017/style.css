@@ -1,0 +1,21 @@
+@charset "utf-8"
+
+* {
+
+    height: 100%;
+}
+
+body {
+    background-color: #cfca8600;
+    font-family:arial,monospace, sans-serif;
+}
+
+h1,h2 {
+    background-color:#cdec5d80 ;
+    color:#324001 ;
+    font-family: Arial, Helvetica, serif;
+}
+p{
+    font-style: italic;
+    font-family: Arial, monospace, sans-serif;
+}
