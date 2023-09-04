@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br
+">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media query</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+   <link rel="stylesheet" href="estiloss/style.css">
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <span id="burguer" class="material-icons" onclick="clickMenu()">menu</span>
+        <menu id="itens">
+            <ul>
+              <li><a href="#">opção1</a></li>
+              <li><a href="#">opção2</a></li>
+              <li><a href="#">opção3</a></li>
+              <li><a href="#">opção4</a></li>
+              <li><a href="#">opção5</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Testando media queries</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores amet culpa odit dolore cupiditate blanditiis laborum. Quos est provident, tempore, reiciendis architecto, porro culpa eligendi dolorum consequatur ea sit. Ut! Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora autem temporibus nulla, nobis fugiat placeat eligendi animi amet voluptatibus reprehenderit harum, nesciunt facere laborum et velit consectetur explicabo? Excepturi, numquam.</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis, officia fuga a, sit magnam iusto amet dolore impedit voluptas eos animi praesentium neque. Ipsam, explicabo placeat! Quod facere veniam tenetur?</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit, ex eveniet adipisci repudiandae aspernatur laboriosam molestias. Laboriosam nemo cumque voluptatum, modi fugit, at expedita perspiciatis culpa ad, mollitia praesentium quae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere eligendi accusantium tempora minus rem voluptatem esse exercitationem veniam laudantium provident quos excepturi obcaecati, doloribus eveniet hic similique quidem possimus saepe.</p>
+        </article>
+    </main>
+    <script>
+        function clickMenu() {
+           if (itens.style.display == 'block') {
+            itens.style.display = 'none'
+           } else {
+            itens.style.display = 'block'
+           }
+        }
+    </script>
+</body>
+</html>
