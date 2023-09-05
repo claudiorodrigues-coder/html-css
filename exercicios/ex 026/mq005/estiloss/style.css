@@ -10,6 +10,10 @@ html,body {
     background-color: rgba(85, 107, 47, 0.473);
 }
 
+body {
+    height: 100vh;
+}
+
 header {
     background-color: darkslategray;
 }
@@ -22,7 +26,7 @@ span#burguer {
     color: white;
     text-align: center;
     background-color: rgb(104, 101, 101);
-    display: block;
+    display:block;
     padding: 10px;
     cursor: pointer;
 }
@@ -40,7 +44,7 @@ menu > ul {
 }
 
 menu > ul > li > a {
-    display: block;
+    display:block;
     padding: 10px;
     text-decoration: none;
     background-color: rgb(39, 36, 36);
