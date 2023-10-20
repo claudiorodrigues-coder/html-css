@@ -21,6 +21,7 @@ header > h1 {
 }
 
 menu ul {
+    padding-left: 2px;
     list-style-type: none;
     background-color: grey;
 }
@@ -33,7 +34,10 @@ menu li {
 }
 
 article {
-    width: 550px;
+    padding: 5px;
+    min-width:300px;
+    max-width: 1000px;
     display: block;
     margin: auto;
+    text-align: justify;
 }
